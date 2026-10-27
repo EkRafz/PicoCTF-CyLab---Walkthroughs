@@ -1,5 +1,5 @@
 > A message has been encrypted using RSA. The public key is gone… but someone might have been careless with the private key. Can you recover it and decrypt the message? Download the [flag](https://challenge-files.cylabacademy.net/library/4c19613e66e3f22baabf929555a826f8ebd997a002b008eb4e51dc2849aca14e/flag.enc) and [image](https://challenge-files.cylabacademy.net/library/4c19613e66e3f22baabf929555a826f8ebd997a002b008eb4e51dc2849aca14e/image.jpg).
-> 
+
 ---
 
 ## Challenge Access
@@ -195,6 +195,7 @@ DESCRIPTION
 		rsa RSA key management.
 ```
 
+`rsa` is one of the subcommands of `openssl`. It refers to the **Rivest–Shamir–Adleman** asymmetric public-key cryptosystem used for secure key exchange, encryption, and digital signatures. It is designed to **process RSA keys**.
 Breaking down the options:
 - `-in flag.enc` → the input file containing the ciphertext to decrypt
 - `-check` → This catches a key that looks structurally valid (correct PEM headers, parses without error)
@@ -208,36 +209,13 @@ This confirms the key parses correctly and is a genuine RSA private key before t
 $ openssl pkeyutl -decrypt -inkey key.pem -in flag.enc
 ```
 
-`Openssl` is the command-line tool for the OpenSSL cryptography library. It’s a single binary that bundles dozens of subcommands for working with keys, certificates, and ciphers. `pkeyutl` is one of those subcommands. 
+Like `rsa`, `pkeyutl` is one of the subcommands of `openssl`.
 
 ``` Shell
 OPENSSL(1SSL)                       OpenSSL                      OPENSSL(1SSL)
 
-NAME
-       openssl - OpenSSL command line program
-
-SYNOPSIS
-       openssl command [ options ... ] [ parameters ... ]
-
-       openssl no-XXX [ options ]
-
-DESCRIPTION
-       OpenSSL is a cryptography toolkit implementing the Secure Sockets Layer
-       (SSL v2/v3) and Transport Layer Security (TLS v1) network protocols and
-       related cryptography standards required by them.
-
-       The openssl program is a command line program for using the various
-       cryptography functions of OpenSSL's crypto library from the shell.  It
-       can be used for
-
-        o  Creation and management of private keys, public keys and parameters
-        o  Public key cryptographic operations
-        o  Creation of X.509 certificates, CSRs and CRLs
-        o  Calculation of Message Digests and Message Authentication Codes
-        o  Encryption and Decryption with Ciphers
-        o  SSL/TLS Client and Server Tests
-        o  Handling of S/MIME signed or encrypted mail
-        o  Timestamp requests, generation and verification
+		pkeyutl
+           Public key algorithm cryptographic operation command.
         
 ```
 
@@ -251,7 +229,7 @@ Breaking down the options:
 academy{...}
 ```
 
-> Respecting the decision I made for the OverTheWire Walkthroughs, I won't be leaking any flgas
+> Respecting the decision I made for the OverTheWire Walkthroughs, I won't be leaking any flags
 
 Now that we have the flag, you can use it to complete the challenge.
 
