@@ -7,6 +7,7 @@
 | Field    | Value                                                                                                                                                                                                                                                                                |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Category | Cryptography                                                                                                                                                                                                                                                                         |
+|          |                                                                                                                                                                                                                                                                                      |
 | Files    | [`flag.enc`](https://challenge-files.cylabacademy.net/library/4c19613e66e3f22baabf929555a826f8ebd997a002b008eb4e51dc2849aca14e/flag.enc), [`image.jpg`](https://challenge-files.cylabacademy.net/library/4c19613e66e3f22baabf929555a826f8ebd997a002b008eb4e51dc2849aca14e/image.jpg) |
 
 ---

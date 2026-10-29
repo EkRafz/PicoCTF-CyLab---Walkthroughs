@@ -4,12 +4,12 @@
 
 ## Challenge Access
 
-| Field    | Value                                                                                                                                  |
-| -------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Category | Forensics                                                                                                                              |
-| Points   | Easy                                                                                                                                   |
-| Author   | susie                                                                                                                                  |
-| Files    | [`cat.jpg`](https://challenge-files.cylabacademy.net/library/c585b4adbdaa06f409db7bf5012c2e58e9aab24669764a5f1cf0f9ce0d60dcfd/cat.jpg) |
+| Field      | Value                                                                                                                                  |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Category   | Forensics                                                                                                                              |
+| Difficulty | Easy                                                                                                                                   |
+| Author     | susie                                                                                                                                  |
+| Files      | [`cat.jpg`](https://challenge-files.cylabacademy.net/library/c585b4adbdaa06f409db7bf5012c2e58e9aab24669764a5f1cf0f9ce0d60dcfd/cat.jpg) |
 
 ---
 

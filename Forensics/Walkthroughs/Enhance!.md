@@ -4,13 +4,13 @@
 
 ## Challenge Access
 
-| Field    | Value                                                                                                                                                        |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Category | Forensics                                                                                                                                                    |
-| Points   | Medium                                                                                                                                                       |
-| Author   | LT 'syreal' Jones                                                                                                                                            |
-| Tags     | svg                                                                                                                                                          |
-| Files    | [`drawing.flag.svg`](https://challenge-files.cylabacademy.net/library/83bfcd323363337f297f4d4ee3bff06df8564155aa2037148151710fa8baec04/drawing.flag.svg)<br> |
+| Field      | Value                                                                                                                                                        |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Category   | Forensics                                                                                                                                                    |
+| Difficulty | Medium                                                                                                                                                       |
+| Author     | LT 'syreal' Jones                                                                                                                                            |
+| Tags       | svg                                                                                                                                                          |
+| Files      | [`drawing.flag.svg`](https://challenge-files.cylabacademy.net/library/83bfcd323363337f297f4d4ee3bff06df8564155aa2037148151710fa8baec04/drawing.flag.svg)<br> |
 
 ---
 

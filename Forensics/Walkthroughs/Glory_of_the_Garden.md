@@ -4,12 +4,12 @@
 
 ## Challenge Access
 
-| Field    | Value                                                                                                                                        |
-| -------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Category | Forensics                                                                                                                                    |
-| Points   | Easy                                                                                                                                         |
-| Author   | jedavis/Danny                                                                                                                                |
-| Files    | [`garden.jpg`](https://challenge-files.cylabacademy.net/library/3c60c5a7f7a8067606c51d4b4b3c7913fae709b11e2f2c7adbc0a0b4cda452ff/garden.jpg) |
+| Field      | Value                                                                                                                                        |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Category   | Forensics                                                                                                                                    |
+| Difficulty | Easy                                                                                                                                         |
+| Author     | jedavis/Danny                                                                                                                                |
+| Files      | [`garden.jpg`](https://challenge-files.cylabacademy.net/library/3c60c5a7f7a8067606c51d4b4b3c7913fae709b11e2f2c7adbc0a0b4cda452ff/garden.jpg) |
 
 ---
 
@@ -57,6 +57,6 @@ Here is a flag academy{...}
 
 ## Key Takeaways
 
-- **Not every hidden flag needs structure-aware tool.** Where [StegoRSA](Cryptography/StegoRSA) needed `exiftool` to target a specific metadata field, this one is simpler: the flag is just plain text sitting in the file, so a blunt text scan finds it immediately.
+- **Not every hidden flag needs structure-aware tool.** Where [StegoRSA](StegoRSA.md) needed `exiftool` to target a specific metadata field, this one is simpler: the flag is just plain text sitting in the file, so a blunt text scan finds it immediately.
 - **`strings` + `grep` is a fast first pass.** Before reaching for a hex editor (useful for precise, byte-level inspection) try `strings <file> | grep <expected_pattern>`, it costs nothing and catches the common case of flags hidden as literal appended text.
 - **A valid file header doesn't guarantee a "clean" file.** `file` confirming "JPEG image data" only validates the start of the file; data appended after the image stream ends is invisible to anything that renders the image but still sits there in the raw bytes.
