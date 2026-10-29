@@ -23,7 +23,7 @@ By working through these you'll get comfortable with asymmetric crypto fundament
 | -------------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------- | ------ |
 | [StegoRSA](./Walkthroughs/StegoRSA.md)       | Easy       | `exiftool`, hex-to-ASCII decoding, RSA key validation and decryption with `openssl`            | ✅      |
 | [Caesar](./Walkthroughs/Caesar.md)           | Medium     | [dcode.fr Caesar Cipher solver](https://www.dcode.fr/caesar-cipher)                            | ✅      |
-| [interencdec](./Walkthroughs/interencdec.md) | Easy       | `base64 -d`, [dcode.fr Caesar Cipher solver](https://www.dcode.fr/caesar-cipher), wrapped flag | ✅      |
+| [Interencdec](./Walkthroughs/Interencdec.md) | Easy       | `base64 -d`, [dcode.fr Caesar Cipher solver](https://www.dcode.fr/caesar-cipher), wrapped flag | ✅      |
 
 ---
 
