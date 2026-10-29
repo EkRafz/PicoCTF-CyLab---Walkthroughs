@@ -21,7 +21,8 @@ By working through these you'll get comfortable with asymmetric crypto fundament
 
 | Challenge                              | Difficulty | Skills Introduced                                                                   | Status |
 | -------------------------------------- | ---------- | ----------------------------------------------------------------------------------- | ------ |
-| [StegoRSA](./Walkthroughs/StegoRSA.md) | EASY       | `exiftool`, hex-to-ASCII decoding, RSA key validation and decryption with `openssl` | ✅      |
+| [StegoRSA](./Walkthroughs/StegoRSA.md) | Easy       | `exiftool`, hex-to-ASCII decoding, RSA key validation and decryption with `openssl` | ✅      |
+| [Caesar](./Walkthroughs/Caesar.md)     | Medium     | [dcode.fr Caesar Cipher solver](https://www.dcode.fr/caesar-cipher)                 | ✅      |
 
 ---
 
