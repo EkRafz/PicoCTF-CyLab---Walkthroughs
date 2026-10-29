@@ -44,16 +44,16 @@ The structure of this repo is very similar to [OverTheWire's repo](https://githu
 
 ## Categories Index
 
-| Category                                 | Topic                                                       | Status         |
-| ---------------------------------------- | ----------------------------------------------------------- | -------------- |
-| [Cryptography](./Cryptography/README.md) | RSA, classical ciphers, key recovery, encoding schemes      | 🟡 In Progress |
-| [Forensics](./Forensics/README.md)       | Metadata analysis, file carving, steganography, hidden data | 🟡 In Progress |
-| Web Exploitation                         | Injection, auth bypass, client-side vulnerabilities         | 🔴 Coming Soon |
-| Reverse Engineering                      | Disassembly, decompilation, binary analysis                 | 🔴 Coming Soon |
-| Binary Exploitation                      | Memory corruption, stack/heap attacks                       | 🔴 Coming Soon |
-| General Skills                           | Linux fundamentals, scripting, tool literacy                | 🔴 Coming Soon |
-| Blockchain                               | Smart contract vulnerabilities, chain analysis              | 🔴 Coming Soon |
-| Artificial Intelligence                  | AI/ML security, adversarial ML, model exploitation          | 🔴 Coming Soon |
+| Category                                               | Topic                                                       | Status         |
+| ------------------------------------------------------ | ----------------------------------------------------------- | -------------- |
+| [Cryptography](./Cryptography/README.md)               | RSA, classical ciphers, key recovery, encoding schemes      | 🟡 In Progress |
+| [Forensics](./Forensics/README.md)                     | Metadata analysis, file carving, steganography, hidden data | 🟡 In Progress |
+| Web Exploitation                                       | Injection, auth bypass, client-side vulnerabilities         | 🔴 Coming Soon |
+| Reverse Engineering                                    | Disassembly, decompilation, binary analysis                 | 🔴 Coming Soon |
+| [Binary Exploitation](./Reverse_Engineering/README.md) | Memory corruption, stack/heap attacks                       | 🔴 Coming Soon |
+| General Skills                                         | Linux fundamentals, scripting, tool literacy                | 🔴 Coming Soon |
+| Blockchain                                             | Smart contract vulnerabilities, chain analysis              | 🔴 Coming Soon |
+| Artificial Intelligence                                | AI/ML security, adversarial ML, model exploitation          | 🔴 Coming Soon |
 
 ---
 

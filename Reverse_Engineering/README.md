@@ -21,7 +21,7 @@ By working through these you get comfortable with reading assembly (instruction 
 
 | Challenge                                    | Difficulty | Skills Introduced                                                       | Status |
 | -------------------------------------------- | ---------- | ----------------------------------------------------------------------- | ------ |
-| [Bit-O-Asm-1](./Walkthroughs/Bit-O-Asm-1.md) | Easy       | x86_64 assembly, Intel syntax `mov` (destination first), hex-to-decimal | ✅      |
+| [Bit-O-Asm-1](Bit-O-Asm-1.md) | Easy       | x86_64 assembly, Intel syntax `mov` (destination first), hex-to-decimal | ✅      |
 
 ---
 
