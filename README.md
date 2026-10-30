@@ -49,8 +49,8 @@ The structure of this repo is very similar to [OverTheWire's repo](https://githu
 | [Cryptography](./Cryptography/README.md)               | RSA, classical ciphers, key recovery, encoding schemes      | 🟡 In Progress |
 | [Forensics](./Forensics/README.md)                     | Metadata analysis, file carving, steganography, hidden data | 🟡 In Progress |
 | Web Exploitation                                       | Injection, auth bypass, client-side vulnerabilities         | 🔴 Coming Soon |
-| Reverse Engineering                                    | Disassembly, decompilation, binary analysis                 | 🔴 Coming Soon |
-| [Binary Exploitation](./Reverse_Engineering/README.md) | Memory corruption, stack/heap attacks                       | 🟡 In Progress |
+| [Reverse Engineering](./Reverse_Engineering/README.md) | Disassembly, decompilation, binary analysis                 | 🟡 In Progress |
+| Binary Exploitation                                    | Memory corruption, stack/heap attacks                       | 🔴 Coming Soon |
 | General Skills                                         | Linux fundamentals, scripting, tool literacy                | 🔴 Coming Soon |
 | Blockchain                                             | Smart contract vulnerabilities, chain analysis              | 🔴 Coming Soon |
 | Artificial Intelligence                                | AI/ML security, adversarial ML, model exploitation          | 🔴 Coming Soon |
